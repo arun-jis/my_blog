@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require tether
+//= require bootstrap
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require ie10-viewport-bug-workaround
+// require_tree .
