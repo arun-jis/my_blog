@@ -69,6 +69,17 @@
       </div>
     </nav>
     <!-- ******************************* Navbar ends here ********************************** -->
+    <div class="container-fluid" style="margin-top: 70px;"> <!-- Main Container -->
+      <div class="row">
+        <div class="col-sm-8">
+          <%= yield %>
+        </div>
+        <div class="col-sm-4"> <!-- sidebar for archives -->
+          Archives
+        </div>
+      </div>
+    </div>
+    <!-- ******************************* Main Container ends here ********************************** -->
   </body>
   <%= javascript_include_tag "application" %>
 </html>
